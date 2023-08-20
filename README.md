@@ -39,3 +39,7 @@ Individual statements are terminated by _semicolons_.
 But (5.0/9.0) is not truncated because it is the ratio of two floating-point values.
 
 If an arithmetic operator has has integer operands, and integer operation is performed. If an arithmetic operator has one floating-point operand and one integer operand, the integer will be converted to floating point before the operation done.
+
+### Symbolic Constants
+
+**Symbolic constants** are not variables, so they do not appear in declarations. Identifiers are used to represent fixed values in programs using symbolic constants in the **C Programming** language. There is no semicolon at the end of a **#define** line.
