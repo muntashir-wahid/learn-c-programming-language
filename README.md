@@ -1,6 +1,6 @@
 # The C Programming Language
 
-## Introduction
+## Chapter One: Introduction
 
 ### Getting started
 
