@@ -43,3 +43,13 @@ If an arithmetic operator has has integer operands, and integer operation is per
 ### Symbolic Constants
 
 **Symbolic constants** are not variables, so they do not appear in declarations. Identifiers are used to represent fixed values in programs using symbolic constants in the **C Programming** language. There is no semicolon at the end of a **#define** line.
+
+### Function
+
+In _C_, function is equivalent to subroutine.
+
+**Subroutine:** A set of instructions that are used repeatedly in a program.
+
+A function provides a convenient way to encapsulate some computation, which can then be used without worrying about it's implementation.
+
+We use _parameter_ for a variable named in teh parenthesized list in a function definition, and _argument_ for the value used in the call of the function.

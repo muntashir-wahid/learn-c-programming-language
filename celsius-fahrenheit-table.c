@@ -1,22 +1,28 @@
 #include <stdio.h>
 
-main() {
+float calcFahrendeit(int celcius);
+
+int main() {
     // Celsius to Fahrenheit Table
 
-    float fahr, celsius;
-    int lower, upper, step;
-
-    lower = 0;
-    upper = 300;
-    step = 20;
-
-    celsius = lower;
+    float celsius;
 
     printf("Celsius to Fahrenheit Table\n");
 
-    while(celsius <= upper) {
-            fahr = (9.0 * celsius / 5.0) + 32.0;
-            printf("%3.0f %6.1f\n", celsius, fahr);
-            celsius += step;
+    for(celsius = 0; celsius <= 300; celsius += 20) {
+        printf("%3.0f %6.1f\n", celsius, calcFahrendeit(celsius));
     }
+
+    return 0;
+}
+
+// Using Function
+
+float calcFahrendeit(int celsius) {
+
+    float fahr;
+
+    fahr = (9.0 * celsius / 5.0) + 32.0;
+
+    return fahr;
 }
